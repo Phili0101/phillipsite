@@ -1,0 +1,97 @@
+/* styles.css */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Hadja', sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background to ensure readability */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header {
+    background: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+}
+
+header h1 {
+    float: left;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 5px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+header nav ul li a:hover {
+    background: #0779e4;
+}
+
+main {
+    flex: 1;
+    padding: 20px 0;
+}
+
+.accueil, .services {
+    background: rgba(7, 121, 228, 0.8); /* Semi-transparent background */
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.services {
+    background: rgba(228, 228, 228, 0.8); /* Semi-transparent background */
+    color: #333;
+}
+
+footer {
+    background: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
